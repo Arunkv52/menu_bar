@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a.navbar-brand img {
+    width: 100%;
+    height: 50px;
+}
+
+/* Bootstrap mofification */
+.navbar-toggler{
+    background-color: rgb(255, 255, 255) !important;
+}
+.navbar-toggler-icon{
+    color: rgb(0, 0, 0) !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
